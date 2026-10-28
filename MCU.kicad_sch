@@ -3,6 +3,29 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "a502040a-151b-4514-95e2-d7ed1e198d18")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
+	(text "Implement the core processor of the flight computer.\nThis is relatively simple, and the main complexity comes from \ndetermining which pins should be broken out."
+		(exclude_from_sim no)
+		(at 18.542 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4de454a1-6896-4be5-99cd-c13c6a6655c9")
+	)
+	(text "Microcontroller"
+		(exclude_from_sim no)
+		(at 33.274 21.844 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "bb4648cf-b299-43c1-adf1-38c5ba095fcc")
+	)
 )

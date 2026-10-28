@@ -17,9 +17,9 @@
 		)
 		(uuid "61465dc2-0d75-4626-94f3-07d2ab858fcc")
 	)
-	(text "Currently this sheet will get PYRO Channels (copy pyro channels on the Alpha Board Schematic)\nIt will also have 3 pin connectors for servos (5v, ground, pwm), and spare pins for GPIO"
+	(text "Currently this sheet will get PYRO Channels (copy pyro channels on the Alpha Board Schematic)\nIt will also have 3 pin connectors for servos (5v, ground, pwm), and spare pins for GPIO\n\nThis sheet will eventually have more and we will add things as we move along."
 		(exclude_from_sim no)
-		(at 14.732 24.892 0)
+		(at 15.494 26.162 0)
 		(effects
 			(font
 				(size 1.27 1.27)

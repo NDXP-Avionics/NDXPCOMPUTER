@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(rectangle
 		(start -111.506 56.642)
-		(end -1.016 147.828)
+		(end -1.016 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -59,9 +59,9 @@
 		)
 		(uuid "2f43e936-cd26-43a3-b4a3-b990e12dd0c7")
 	)
-	(text "1. git pull --rebase origin master\n2. make your changes!!\n3. git add .\n3. git commit -m \"your-descriptive-message\"\n5. git push origin master"
+	(text "1. git switch master\n2. git pull --rebase origin master\n3. git checkout -b your-new-branch-name\n3. make your changes!!\n4. git add .\n5. git commit -m \"your-descriptive-message\"\n6. git push origin your-branch-name"
 		(exclude_from_sim no)
-		(at -107.188 86.614 0)
+		(at -107.188 92.456 0)
 		(effects
 			(font
 				(size 2 2)
@@ -86,7 +86,7 @@
 	)
 	(text "Do not be afraid to make commits! \nEverything will be reviewed\nand nothing is final! The only way \nto learn is to make mistakes!"
 		(exclude_from_sim no)
-		(at -59.944 133.35 0)
+		(at -60.198 146.05 0)
 		(effects
 			(font
 				(size 3 3)
@@ -99,7 +99,7 @@
 	)
 	(text "Do the above steps each time you sit down to design.\nYou should not start designing without starting at \nthe first step, and should not stop before commiting \nyour changes, whatever they were, to the remote server.\n"
 		(exclude_from_sim no)
-		(at -57.15 106.68 0)
+		(at -57.15 117.094 0)
 		(effects
 			(font
 				(size 2 2)
@@ -131,7 +131,7 @@
 	)
 	(polyline
 		(pts
-			(xy -109.474 118.618) (xy -2.794 118.618)
+			(xy -109.22 129.54) (xy -2.54 129.54)
 		)
 		(stroke
 			(width 0)

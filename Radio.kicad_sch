@@ -5,4 +5,27 @@
 	(uuid "1d692167-0485-491b-b027-ea6d35efeef5")
 	(paper "A4")
 	(lib_symbols)
+	(text "Radio"
+		(exclude_from_sim no)
+		(at 25.4 18.796 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "9d51b0bf-06a5-439a-93c6-2c91d00ba78e")
+	)
+	(text "The radio on this board has to interface with the one on the groundstation.\nTalk to Andrew about what he is using and make sure they agree.\n\nIt is a LoRa transceiver of some sort, just make sure it is compatible with Andrew's design.\n\nAlso add UART connector, JST-GH, if we ever want to connect to an external radio like\nthe RFD 900x"
+		(exclude_from_sim no)
+		(at 20.32 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb295764-5854-40b9-ad4e-e4d2baf29731")
+	)
 )
