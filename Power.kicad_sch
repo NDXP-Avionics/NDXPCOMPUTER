@@ -1,0 +1,31 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0c465ade-7dc0-40d3-8a03-bd1d9d8e5850")
+	(paper "A4")
+	(lib_symbols)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 23.622 22.098 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "3d1df5bf-cf56-46a0-8a6d-4f5db2cacb7f")
+	)
+	(text "Implement all power regulation circuitry and connectors. This will likely all be moved to a second board but we will keep it here for now.\nThings include battery connector(xt30) for 2S lipo, main step down regulator (Switching, likely stepping ~7.4v from the battery to 3.3v),\nand other relevant circuitry.\n\nIt may be difficult to finish this until everything else is specced, but a start would be implementing a 3.3v buck regulator that can\nhandle ~5 Amps."
+		(exclude_from_sim no)
+		(at 17.526 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb914c39-f832-4bba-974a-187db7490c31")
+	)
+)

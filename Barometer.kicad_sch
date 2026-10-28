@@ -1,0 +1,31 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2d7948fe-f3f2-4aa0-9f8c-f26831b27af7")
+	(paper "A4")
+	(lib_symbols)
+	(text "Implement as part of the Rocket's state estimation solution. The Barometer provides low frequency, absolute altitude\nestimates to correct error that accumulates from the gyroscope and accelerometer estimates.\nChoose a part that is common and well known for these applications. It should communicate\nvia either I2C or SPI and should be rated for the g forces our rocket will experience."
+		(exclude_from_sim no)
+		(at 19.558 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64178ff0-e3c7-4b3e-ae18-cba14081a854")
+	)
+	(text "Barometer"
+		(exclude_from_sim no)
+		(at 29.464 23.622 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ce0a0ded-82b3-430e-99df-4171590df379")
+	)
+)

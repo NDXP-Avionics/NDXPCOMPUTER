@@ -1,0 +1,31 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f3beaf1a-4712-4746-9823-10cc6f2f7cac")
+	(paper "A4")
+	(lib_symbols)
+	(text "Pyro, Servo connectors, Spare GPIO breakout"
+		(exclude_from_sim no)
+		(at 59.436 17.526 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "61465dc2-0d75-4626-94f3-07d2ab858fcc")
+	)
+	(text "Currently this sheet will get PYRO Channels (copy pyro channels on the Alpha Board Schematic)\nIt will also have 3 pin connectors for servos (5v, ground, pwm), and spare pins for GPIO"
+		(exclude_from_sim no)
+		(at 14.732 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a266569-594d-4f96-8b7f-79c29798f76a")
+	)
+)

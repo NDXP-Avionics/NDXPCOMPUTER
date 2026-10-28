@@ -1,0 +1,562 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f")
+	(paper "A4")
+	(title_block
+		(title "Flight Computer")
+		(rev "0")
+		(company "Notre Dame Experimental Propulsion")
+	)
+	(lib_symbols)
+	(rectangle
+		(start -111.506 56.642)
+		(end -1.016 147.828)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "80fa0d21-4da0-40e6-a201-9f9dc82ebfb3")
+	)
+	(text "TO CONTRIBUTE:"
+		(exclude_from_sim no)
+		(at -57.912 61.976 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0cbc2da1-3423-4e01-b0a9-26afec2391a3")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at -86.868 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "101f71f6-9162-4d59-a03a-2b8f92baa249")
+	)
+	(text "Each Design Session:"
+		(exclude_from_sim no)
+		(at -74.93 72.898 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "2f43e936-cd26-43a3-b4a3-b990e12dd0c7")
+	)
+	(text "1. git pull --rebase origin master\n2. make your changes!!\n3. git add .\n3. git commit -m \"your-descriptive-message\"\n5. git push origin master"
+		(exclude_from_sim no)
+		(at -107.188 86.614 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4cb5ff73-dbc7-48c9-b7ad-6e86aa83020b")
+	)
+	(text "NDXP Flight Computer"
+		(exclude_from_sim no)
+		(at 142.24 17.526 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "66aa9a8a-c04d-4a96-8cc6-5c0444805bad")
+	)
+	(text "Do not be afraid to make commits! \nEverything will be reviewed\nand nothing is final! The only way \nto learn is to make mistakes!"
+		(exclude_from_sim no)
+		(at -59.944 133.35 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "821837d9-1239-408b-b654-813a16f3de88")
+	)
+	(text "Do the above steps each time you sit down to design.\nYou should not start designing without starting at \nthe first step, and should not stop before commiting \nyour changes, whatever they were, to the remote server.\n"
+		(exclude_from_sim no)
+		(at -57.15 106.68 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+				(italic yes)
+			)
+		)
+		(uuid "875d113b-37c6-4319-be7e-e6bbbff9fb3f")
+	)
+	(polyline
+		(pts
+			(xy -105.664 76.708) (xy -42.164 76.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0606ea1a-5a2a-4738-af51-628c323f32b6")
+	)
+	(polyline
+		(pts
+			(xy -87.884 66.548) (xy -28.194 66.548)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8575d3-a0af-436e-ad5b-6efe8940a8d5")
+	)
+	(polyline
+		(pts
+			(xy -109.474 118.618) (xy -2.794 118.618)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1264bac-26f9-4942-8ff4-9afcece1840d")
+	)
+	(sheet
+		(at 115.57 41.91)
+		(size 49.53 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "02c756ce-ecd9-458f-be6f-18e08df81acb")
+		(property "Sheetname" "MCU"
+			(at 115.57 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 115.57 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 31.75)
+		(size 29.21 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06a95e87-0db2-41b0-9803-930083242d80")
+		(property "Sheetname" "GPS"
+			(at 196.85 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 196.85 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 109.22)
+		(size 39.37 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2377344f-9d2b-441f-8901-3605061db17e")
+		(property "Sheetname" "MISC"
+			(at 196.85 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MISC.kicad_sch"
+			(at 196.85 149.1746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 153.67)
+		(size 55.88 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3ff6c570-ec44-48b1-8c17-f11f3d67ef34")
+		(property "Sheetname" "Power"
+			(at 114.3 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 114.3 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 16.51)
+		(size 39.37 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6e81b790-b3d3-44e9-8785-9119d05bdad4")
+		(property "Sheetname" "IMU"
+			(at 27.94 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 27.94 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 154.94)
+		(size 35.56 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7001e911-3e2b-464d-a19c-5f83d30e63a3")
+		(property "Sheetname" "CAN"
+			(at 53.34 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 53.34 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 106.68)
+		(size 40.64 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b505a1de-da7e-4cd7-9de1-ebba581cc177")
+		(property "Sheetname" "Barometer"
+			(at 27.94 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Barometer.kicad_sch"
+			(at 27.94 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 60.96)
+		(size 39.37 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c0a46617-d066-48b4-b315-032dc5fb145e")
+		(property "Sheetname" "Magnetometer"
+			(at 27.94 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Magnetometer.kicad_sch"
+			(at 27.94 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 72.39)
+		(size 29.21 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d5e1c8a8-b958-4539-bb7e-05e072b85e59")
+		(property "Sheetname" "Radio"
+			(at 196.85 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Radio.kicad_sch"
+			(at 196.85 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NDXPCOMPUTER"
+				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,31 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3d5ce36a-ae54-48b6-b1d4-bc747dd4da12")
+	(paper "A4")
+	(lib_symbols)
+	(text "Implement a magnetometer that will be used as part of our state estimation solution to provide absolute orientation exstimates.\nSelect a part that is popular, cheap, well known, commonly used in these scenarios, \nand hax no issues in the high-g, high vibration environment that is our rocket.\n"
+		(exclude_from_sim no)
+		(at 17.272 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9e199ac-8104-450e-8454-f54c573db0e8")
+	)
+	(text "Magnetometer"
+		(exclude_from_sim no)
+		(at 30.734 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f0a4aed4-7bd1-44c6-9fa1-33c6b346d303")
+	)
+)

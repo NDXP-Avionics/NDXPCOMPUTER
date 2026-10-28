@@ -1,0 +1,31 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f45d6fc0-5c8d-4372-af59-caff97ff277b")
+	(paper "A4")
+	(lib_symbols)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 24.384 27.94 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "dc54facf-2d03-4872-a6ce-40501772b0e1")
+	)
+	(text "Implement a CAN transceiver and relevant circuitry to allow a data link with the alpha peripheral board\nwithin the rocket. It might connect to the microcontroller with uart or SPI.\n\nCAN is a protocol invented for automotive applications and is a communication protocol and physical\nlayer specification that allows high speed communication across relatively long wires in high-noise \nenvironments"
+		(exclude_from_sim no)
+		(at 21.082 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9b2d969-c2f1-41af-964a-912b937cb620")
+	)
+)
