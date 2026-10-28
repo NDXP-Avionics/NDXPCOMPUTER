@@ -59,7 +59,7 @@
 		)
 		(uuid "2f43e936-cd26-43a3-b4a3-b990e12dd0c7")
 	)
-	(text "1. git switch master\n2. git pull --rebase origin master\n3. git checkout -b your-new-branch-name\n3. make your changes!!\n4. git add .\n5. git commit -m \"your-descriptive-message\"\n6. git push origin your-branch-name"
+	(text "1. git switch master\n2. git pull --rebase origin master\n3. git checkout -b your-new-branch-name\n3. make your changes!!\n4. git add .\n5. git commit -m \"your-descriptive-message\"\n6. git push origin your-branch-name\n7. Submit pull request on github"
 		(exclude_from_sim no)
 		(at -107.188 92.456 0)
 		(effects
