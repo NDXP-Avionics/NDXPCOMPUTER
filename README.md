@@ -19,7 +19,7 @@ Each step is broken down as follows:
 If this is your first time interacting with this repository on your local machine, execute the following command in the location on your computer you wish to clone the repository to:
 
 ```
-git clone https://github.com/1112luke/CubeFlightComputer
+git clone https://github.com/NDXP-Avionics/NDXPCOMPUTER
 ```
 
 If you have the repository already and wish to begin a new contribution <b><u>it is important that you get the most recent version of the repository: </u></b>
