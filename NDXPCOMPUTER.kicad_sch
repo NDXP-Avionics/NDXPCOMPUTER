@@ -453,6 +453,26 @@
 				(justify left top)
 			)
 		)
+		(pin "SDA" input
+			(at 68.58 115.57 0)
+			(uuid "5c725383-abf9-4af2-8ccb-89d489e79351")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 68.58 119.38 0)
+			(uuid "a1b23ed6-f26e-4048-8f54-c436a725d4e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "NDXPCOMPUTER"
 				(path "/c7bd0dec-7404-4e51-bed2-f1eb6dfe0e4f"
