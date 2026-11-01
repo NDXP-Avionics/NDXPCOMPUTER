@@ -868,7 +868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nf"
 			(at 154.94 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1218,6 +1218,17 @@
 			)
 		)
 		(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+			(at 140.97 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15639"
 			(at 140.97 96.52 0)
 			(hide yes)
 			(show_name no)
