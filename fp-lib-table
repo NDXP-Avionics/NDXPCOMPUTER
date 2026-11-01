@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TS30013_M033QFNR") (type "KiCad") (uri "${KIPRJMOD}/CUSTOM_PARTS/TS30013_M033QFNR/TS30013_M033QFNR.pretty") (options "") (descr ""))
+)
