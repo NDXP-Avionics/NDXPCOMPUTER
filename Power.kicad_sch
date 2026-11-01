@@ -5,6 +5,16 @@
 	(uuid "0c465ade-7dc0-40d3-8a03-bd1d9d8e5850")
 	(paper "A4")
 	(lib_symbols)
+	(text "powered with 8-12v battery\nstep down to 3.3v\ncould use LDO or linear regulator - dissipate power through heat (inefficient)\nswitching regulator - 95% efficient\n\nintake 15-20v\noutputs 3.3v\nprovides 3 amps of current\navialble on lcsc"
+		(exclude_from_sim no)
+		(at 108.966 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b64c5aa-506f-48a5-8129-5cad394a5d43")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 23.622 22.098 0)
